@@ -8,6 +8,7 @@ import NasaService from './js/nasa-service.js';
 function clearFields(){
   $('#search').val("");
   $('#imageToShow').attr("");
+  $('.showTitle').text("");
 }
 
 $('#photoSearch').click(function() {
@@ -18,5 +19,12 @@ $('#photoSearch').click(function() {
     const body = JSON.parse(response);
     let imageOfTheDay = body.url;
     $('#imageToShow').attr("src", imageOfTheDay);
+    let imageTitle = body.title;
+    $('.showTitle').text(imageTitle);
+    let imageExplanation = body.explanation;
+    $('.showExplanation').text(imageExplanation);
+    let imageCopyright = body.copyright;
+    $('.showCopyright').text(imageCopyright);
+    $('.footer').show();
   });
 });
