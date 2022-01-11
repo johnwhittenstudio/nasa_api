@@ -75,6 +75,7 @@ Click the ```"Signup"``` button.
 
 ## Known Bugs
 - _Unable to get nasa-service.js line 5 url to connect to apikey in .env_
+- _Videos of the day unable to display in browser_
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT) Published _**2022**_ _**John Whitten**_
