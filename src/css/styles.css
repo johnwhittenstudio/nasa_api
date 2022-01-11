@@ -22,6 +22,17 @@ body {
   border-color: rgb(255, 59, 25);
 }
 
+.btn-info:hover {
+  color:  white;
+  background-color: rgb(255, 59, 25);
+  border-radius: 25px;
+  border-color: white;
+  /* border: 3px solid darkblue;
+  color: white;
+  background-color: rgb(27, 27, 27);
+  border-radius: 25px; */
+}
+
 .showTitle{
   font-size: xx-large;
   font-style: italic;
