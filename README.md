@@ -41,7 +41,7 @@ For each API key, these limits are applied across all api.nasa.gov API requests.
 
 Visit the [NASA APIs](https://api.nasa.gov/) site.
 
-In the ```* Required Fields``` enter your first name and last name and an email.
+In the ```* Required Fields``` enter your first name and last name and email.
 
 Click the ```"Signup"``` button.
 
