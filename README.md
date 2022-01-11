@@ -74,7 +74,7 @@ Click the ```"Signup"``` button.
 - _Update package.json, line 8 to: "start": "npm run build & webpack-dev-server --open --mode development"_
 
 ## Known Bugs
-- _none._
+- _Unable to get nasa-service.js line 5 url to connect to apikey in .env_
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT) Published _**2022**_ _**John Whitten**_
