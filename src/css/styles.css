@@ -2,12 +2,26 @@
   box-sizing: border-box;
 }
 body{
-  /* background-image: url('../background.jpg'); */
+  margin-top: 25px;
   background-size: cover;
   background-repeat: no-repeat;
-  color: green;
+  color: white;
+  background-color: black;
+  font-family: helvetica;
   font-weight: 400;
 }
+
+#logo{
+  float: left;
+}
+
+.btn-info {
+  border: 2px solid rgb(255, 59, 25);
+  color: white;
+  background-color: rgb(0, 59, 149);
+  border-radius: 25px;
+}
+
 header{
   margin-left: 30%;
   clear: left;
