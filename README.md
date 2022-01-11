@@ -4,7 +4,7 @@
 
 ### _January 11, 2022_
 
-#### _This is a web-based application wherein the user can enter a date between Jun 16, 1995 and Jan 11, 2022 and have NASA return the corresponding Photo of the Day._
+#### _This is a web-based application wherein the user can enter a date between Jun 16, 1995 and Jan 11, 2022 and view that date's Photo of the Day._
 
 ## Technologies Used
 - _Babel 7.6.4_
