@@ -1,8 +1,8 @@
 export default class NasaService {
-  static getSearch(search) {
+  static getSearch(date) {
     return new Promise(function(resolve, reject) {
       let request = new XMLHttpRequest();
-      const searchURL = `https://api.giphy.com/v1/gifs/search?api_key=${process.env.API_KEY}&q=${search}&limit=5&offset=0&rating=g&lang=en`;
+      const searchURL = `https://api.nasa.gov/planetary/apod?date=${date}&hd=true&api_key=SLRKyXmq1vEUb9HnZ5XjeTEAz7RwP3q4LR9LxZk6`;
       request.onload = function() {
         if (this.status === 200) {
           resolve(request.response);
