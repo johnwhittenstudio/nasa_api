@@ -29,6 +29,7 @@
 - _webpack-dev-server 3.8.0_
 
 ## Project Title: NASA API Photo of the Day Search
+[View this site live in your browser](https://johnwhittenstudio.github.io/nasa_api/)
 
 ## API Key Procurement:
 This application uses the NASA-API. You will need to make an account and get an API key if you wish to recreate the project environment on your local computer. You do not need to authenticate in order to explore the NASA data. However, if you will be intensively using the APIs to, say, support a mobile application, then you should sign up for a NASA developer key.
@@ -62,11 +63,11 @@ Click the ```"Signup"``` button.
 
 - _Add the following line of code to the .env file ```API_KEY=insert-your-API-key-here``` where you substitute the API key you got by following the instructions above for the "insert-your-API-key-here". The following is an example using a fake API key: ```API_KEY=1234567890```_
 
-- _Run the command ```$ npm run build```_
+- _Build this project with the command ```$ npm run build```_
 
-- _Run the command ```$ npm run test``` to check the test pass._
+- _Test this project with the command ```$ npm run test``` to check the test pass._
 
-- _Run the command ```$ npm run start``` to launch on a browser._
+- _Run this project with the command ```$ npm run start``` to launch on a browser._
 
 ## Additional Setup/Installation Note for Windows Users
 - _This environment was created on a Mac. For it to work properly in your local environment make the following change:_
@@ -74,11 +75,10 @@ Click the ```"Signup"``` button.
 - _Update package.json, line 8 to: "start": "npm run build & webpack-dev-server --open --mode development"_
 
 ## Known Bugs
-- _Unable to get nasa-service.js line 5 url to connect to apikey in .env_
 - _Videos of the day unable to display in browser_
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT) Published _**2022**_ _**John Whitten**_
 
 ## Contact Information
-_If you encounter any issues with this site, please contact John Whitten at [johnwhitten.studio@gmail.com](mailto:johnwhitten.studio@gmail.com)_
+John Whitten: [johnwhitten.studio@gmail.com](mailto:johnwhitten.studio@gmail.com)_
